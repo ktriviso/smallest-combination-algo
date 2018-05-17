@@ -19,7 +19,7 @@ console.log('returns the lowest possible height of any two elements combined')
         var set = []
         var listSize = list.length
         var combinationsCount = (1 << listSize)
-        console.log(combinationsCount)
+        // console.log(combinationsCount)
         var combination
 
         for (var i = 1; i < combinationsCount ; i++ ){
@@ -54,7 +54,7 @@ console.log('returns the lowest possible height of any two elements combined')
 
         return answer
         // console.log(answer)
-        return uniquepairs
+        // return uniquepairs
         // return set;
     }
     console.log(powerSet(myarray))
