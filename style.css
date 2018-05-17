@@ -1,0 +1,32 @@
+.gallery_photo_gallery {
+    height: 500px;
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: scroll;
+    display: flex;
+}
+
+.grid_item {
+    border: 1px solid red;
+}
+
+.one {
+    height: 300px;
+    width: 300px;
+}
+
+.two {
+    height: 100px;
+    width: 150px;
+}
+
+.three {
+    height: 400px;
+    width: 50px;
+}
+
+.four {
+    height: 200px;
+    width: 250px;
+}
